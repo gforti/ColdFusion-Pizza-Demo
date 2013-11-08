@@ -1,0 +1,411 @@
+
+/* Gobal
+-------------------------------------*/
+
+html {
+	margin:0px;
+	padding:0px;
+}
+
+
+body {
+	margin:0px;
+	padding:0px;
+	background-image: url('../images/background.gif');
+}
+
+
+#wrapper {
+	width: 860px;
+	display:block;		
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#header {
+	width: 850px;
+	background-color:#A33000;	
+}
+
+
+#footer {
+	
+	text-align:center;
+	font-weight: bold;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	width: 830px;
+	padding:0.5em;
+}
+
+
+
+/* Logo
+-------------------------------------*/
+
+#logo {
+	width: 240px;
+	margin: 0px;
+	padding:1.2em;
+	background-color:#EFEFEF;
+	text-align:center;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	font: normal 26px Georgia, "Times New Roman", Times, serif;
+	color:#A33000;
+}
+
+#logo h2 {
+	margin: -2px 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #444444;
+}
+
+
+/* Menu
+-------------------------------------*/
+
+
+#menu {
+	float: right;
+	width:550px;
+	height: 54px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color:#EFEFEF;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 10px;
+	list-style: none;
+	line-height: normal;
+	margin-left: 5px;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 36px;
+	padding: 18px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #464E53;
+}
+
+#menu a:hover, #menu .active a {
+	background: #A33000;
+	color: #FFFFFF;
+}
+
+
+#adminMenu{
+	width: 100%;
+	margin-bottom:0.5em;
+	background-color: #191919;
+	border-bottom: .3em solid #778242;
+}
+
+#adminMenuTitle {
+	color:#EFEFEF;
+	font:1.2em Georgia,"Times New Roman",Times,serif;
+	display: block;
+	padding: 0.5em;
+	font-weight:bold;
+	padding-left:2em;
+}
+
+#adminMenu ul{
+	float:right;
+	overflow:hidden;
+	margin:0.3em;
+	padding:0.5em; 
+	
+}
+
+#adminMenu li {
+	display: inline;
+}
+
+#adminMenu a{	
+	padding: 0.5em;	
+}
+
+
+#adminMenu a:hover{
+	background-color: #778242;	
+}
+
+#adminMenu ul, #adminMenu li, #adminMenu a {
+	text-decoration: none;
+	text-align:center;
+	color:#FFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+
+/* Cart Menu
+-------------------------------------*/
+
+#cart {
+	display:block;
+	width: 830px;
+	border:0.2em solid #778242;
+	background-color:#FFF;
+	padding: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;	
+}
+
+
+/* Main Content Styles
+-------------------------------------*/
+
+
+#content {
+	display:block;
+	width: 810px;
+	border:0.4em solid #A33000;
+	background-color:#FFF;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#content h1 {
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	border-bottom: 2px solid #2B3441;
+	font-family: arial;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding: 2px;
+	padding-left: 10px;
+	color: #778242;
+
+}
+
+#content h3 {
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	border: 2px solid #2B3441;
+	font-family: arial;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding: 2px;
+	padding-left: 10px;
+	color: #A33000;
+	background-color: #EFEFEF;
+	text-align:center;
+
+}
+
+
+
+.orderTable {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.orderTable  caption{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform:capitalize;
+}
+
+.orderTable th{
+	border-bottom: 2px solid #6678B1;
+	font-size: 14px;
+	padding: 6px 8px;
+}
+
+.orderTable td{
+	border-bottom: 1px solid #CCC;
+	padding: 6px 8px;
+}
+
+.orderTable tbody tr:hover td{
+	color:#009;
+	cursor: default;
+	background-color: #DFDFDF;
+}
+
+
+
+/* Box Models
+-------------------------------------*/
+
+.displayPizza {
+
+	border: 2px solid #778242;
+	width: 150px;
+	height: 200px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin: 0.5em;
+	white-space: wrap;
+	color: #A33000;
+}
+
+.displayPizza strong {	
+	display: block;
+	border-bottom: 1px solid #2B3441;
+	font-size:1em;
+	color: #FFF;
+	padding:0.2em;
+	margin-bottom: 0.2em;
+	text-align:center;
+	background-color: #778242;
+	font-weight: bold;
+	text-transform:capitalize;
+}
+
+
+.displayPizza span{	
+	
+	display: block;
+	text-align:center;
+	padding:0.1em;
+}
+
+.displayPizza em {
+	display: block;
+	padding:0.2em;
+	margin-bottom: 0.4em;
+	font-style:normal
+}
+
+.displayPizza em span{
+	color: #333;
+	display: inline;
+	text-align:left;
+}
+
+.displayPizza a {
+	display: block;
+	color: #FFF;
+	padding:0.5em;
+	margin: 0.5em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	font-weight: bold;
+	background-color: #A33000;
+	text-align:center;
+	text-decoration: none;
+	text-transform:capitalize;
+}
+
+.displayPizza a:hover {	
+	background-color: #778242;
+}
+
+
+.inlineList {
+	list-style: none;
+	line-height: normal;
+	padding: 0px 0 0 10px;
+	clear:both;
+	overflow: auto;
+
+}
+
+.inlineList  li {
+	display: inline;
+	float:left;
+}
+
+.buttonLink {
+	display: block;
+	color: #FFF;
+	padding:0.5em;
+	margin: 0.5em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	font-weight: bold;
+	background-color: #A33000;
+	text-align:center;
+	text-decoration: none;
+	text-transform:capitalize;
+}
+
+.buttonLink:hover {	
+	background-color: #778242;
+}
+
+.errorMsg, .sucessMsg{
+	border: 1px solid;
+	margin: 5px auto;
+	padding: 10px;
+	width: 80%;
+	font-family: arial;
+	display:block;
+	text-align:center;
+	font-weight:bold;
+
+}
+.errorMsg {
+	color: #D8000C;
+	background-color: #FFBABA;
+	border-color:#D8000C;
+}
+
+.sucessMsg {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border-color:#4F8A10;
+}
+
+
+label {
+	font-family: arial;
+	font-weight:bold;
+	padding: 5px;
+	font-size:12px;
+}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+fieldset {
+	width:500px;
+	border-color:#333;
+	margin:1em;
+	margin-left:0.5em;
+	padding-left:1.5em;
+	padding-bottom:1.5em;
+}
+
+legend {
+	font-weight:bold;
+	color:#333;
+	font-family: arial;
+	font-size:16px;
+}
+
+.centerdiv {
+	margin-left: auto;
+	margin-right: auto;
+}
